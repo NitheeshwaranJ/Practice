@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
  
 app = FastAPI()
  
-# In-memory student data
+# In-memory book data
 books = [
     {
         "id": 101,
